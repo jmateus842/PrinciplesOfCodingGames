@@ -1,0 +1,58 @@
+QMainWindow {
+    background-color: #0a0a0a;
+}
+
+QTextEdit, QLineEdit {
+    background-color: #1a1a1a;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+}
+
+QTextEdit {
+    border-bottom: none;
+}
+
+QLineEdit {
+    background-color: #2a2a2a;
+    color: white;
+    border-top: 2px solid #00ff00;
+    border-bottom: 2px solid #00ff00;
+    border-left: 2px solid #00ff00;
+    border-right: 2px solid #00ff00;
+    padding: 5px;
+    font-weight: bold;
+}
+
+QTextEdit::selection, QLineEdit::selection {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+QScrollBar:vertical {
+    border: 1px solid #00ff00;
+    background: #1a1a1a;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #00ff00;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    border: none;
+    background: none;
+    color: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
